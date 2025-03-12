@@ -23,21 +23,10 @@ body {
 .box {
   height: 200px;
   width: 200px;
-  background-color: #861657;
-  background-image: linear-gradient(326deg, #861657 0%, #ffa69e 74%);
   color: white;
   line-height: 200px;
   text-align: center;
-}
-
-.box:nth-child(2) {
-  background-color: #fdee00;
-  background-image: linear-gradient(315deg, #fdee00 0%, #ff7518 74%);
-}
-
-.box:last-child {
-  background-color: #77dd77;
-  background-image: linear-gradient(314deg, #77dd77 0%, #004225 74%);
+  cursor: pointer;
 }
 
 .wrap {
